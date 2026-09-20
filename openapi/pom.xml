@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.pipelineframework</groupId>
+        <artifactId>pipeline-expansions</artifactId>
+        <version>26.9.4-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <groupId>org.pipelineframework.expansions</groupId>
+    <artifactId>openapi</artifactId>
+    <packaging>pom</packaging>
+    <name>TPF OpenAPI Expansion</name>
+    <description>Compatible pinned HTTP connector, representation provider, and mapping Block distribution</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.pipelineframework</groupId>
+            <artifactId>http-contract</artifactId>
+            <version>${pipelineframework.connectors.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework</groupId>
+            <artifactId>http-connector</artifactId>
+            <version>${pipelineframework.connectors.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework</groupId>
+            <artifactId>representation-provider-http</artifactId>
+            <version>${pipelineframework.connectors.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework.blocks</groupId>
+            <artifactId>openapi-representation-mapper</artifactId>
+            <version>${pipelineframework.blocks.version}</version>
+        </dependency>
+    </dependencies>
+</project>
