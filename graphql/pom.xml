@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.pipelineframework</groupId>
+        <artifactId>pipeline-expansions</artifactId>
+        <version>26.9.4-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <groupId>org.pipelineframework.expansions</groupId>
+    <artifactId>graphql</artifactId>
+    <packaging>pom</packaging>
+    <name>TPF GraphQL Expansion</name>
+    <description>Compatible GraphQL connector, provider, and reusable Block distribution</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.pipelineframework</groupId>
+            <artifactId>graphql-connector</artifactId>
+            <version>${pipelineframework.connectors.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework</groupId>
+            <artifactId>graphql-smallrye-connector</artifactId>
+            <version>${pipelineframework.connectors.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework.blocks</groupId>
+            <artifactId>graphql</artifactId>
+            <version>${pipelineframework.blocks.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pipelineframework.blocks</groupId>
+            <artifactId>graphql-agent</artifactId>
+            <version>${pipelineframework.blocks.version}</version>
+        </dependency>
+    </dependencies>
+</project>
