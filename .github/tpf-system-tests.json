@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "suites": {
+    "resolution": {
+      "command": [
+        "bash",
+        "scripts/system-tests.sh",
+        "resolution"
+      ],
+      "timeoutMinutes": 45
+    }
+  }
+}
