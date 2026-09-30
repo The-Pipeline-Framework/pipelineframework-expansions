@@ -6,7 +6,7 @@
 
     <groupId>org.pipelineframework</groupId>
     <artifactId>pipeline-expansions</artifactId>
-    <version>26.9.4</version>
+    <version>26.10.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>The Pipeline Framework Expansions</name>
     <description>Versioned distributions of compatible TPF Blocks, Connectors, and integration assets</description>
