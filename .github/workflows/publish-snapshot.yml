@@ -1,9 +1,8 @@
 name: Publish Maven Central Snapshot
 
 on:
-  schedule:
-    # Final extracted stage before the 02:00 UTC BOM snapshot publication.
-    - cron: '17 23 * * *'
+  push:
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
