@@ -6,7 +6,7 @@
 
     <groupId>org.pipelineframework</groupId>
     <artifactId>pipeline-expansions</artifactId>
-    <version>26.10.1</version>
+    <version>26.11.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>The Pipeline Framework Expansions</name>
     <description>Versioned distributions of compatible TPF Blocks, Connectors, and integration assets</description>
@@ -30,12 +30,12 @@
         <connection>scm:git:git@github.com:The-Pipeline-Framework/pipelineframework-expansions.git</connection>
         <developerConnection>scm:git:git@github.com:The-Pipeline-Framework/pipelineframework-expansions.git</developerConnection>
         <url>https://github.com/The-Pipeline-Framework/pipelineframework-expansions</url>
-        <tag>v26.10.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
-        <pipelineframework.blocks.version>26.10.1</pipelineframework.blocks.version>
-        <pipelineframework.connectors.version>26.10.1</pipelineframework.connectors.version>
+        <pipelineframework.blocks.version>26.11.1-SNAPSHOT</pipelineframework.blocks.version>
+        <pipelineframework.connectors.version>26.11.1-SNAPSHOT</pipelineframework.connectors.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.deploy.plugin.version>3.1.4</maven.deploy.plugin.version>
         <maven.gpg.plugin.version>3.2.8</maven.gpg.plugin.version>
